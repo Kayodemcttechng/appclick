@@ -30,7 +30,6 @@
 }
 
 .login-form input {
-  margin: 10px 0;
   padding: 10px;
   font-size: 16px;
 }
@@ -62,7 +61,7 @@
   position: relative;
   margin: 10px 0;
 }
-
+p{margin-top: 8px;}
 .username i {
   position: absolute;
   top: 40%;
