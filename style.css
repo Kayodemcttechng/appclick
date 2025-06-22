@@ -1,0 +1,99 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 34%;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.right{
+    width: 66%;
+}
+
+.login-form {
+  width: 80%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form input {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+.login-form button{
+    padding: 15px;
+  font-size: 18px;
+  width: 100%;
+  background-color: #35aa47; /* Change to your preferred color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.logo{
+    width: 150px; height: 100px;padding-bottom: 50px;float:left;
+}
+.username {
+  position: relative;
+  margin: 10px 0;
+}
+.password {
+  position: relative;
+  margin: 10px 0;
+}
+
+.username i {
+  position: absolute;
+  top: 40%;
+  right: 10px;
+  color: #888;
+}
+.password i {
+  position: absolute;
+  top: 20%;
+  right: 10px;
+  color: #888;
+}
+
+.username input {
+  width: 100%;
+  padding: 10px 10px 10px 35px; /* Left padding for the icon */
+  font-size: 16px;
+}
+.password input {
+  width: 100%;
+  padding: 10px 10px 10px 25px; /* Left padding for the icon */
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .right {
+    height: 300px;
+  }
+}
+
+
