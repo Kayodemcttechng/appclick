@@ -89,11 +89,45 @@ p{margin-top: 8px;}
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
+    height: 100vh;
   }
 
+  .left,
   .right {
-    height: 300px;
+    width: 100%;
+  }
+
+  .right img {
+    height: 100vh;
+  }
+
+  .logo {
+    width: 120px;
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  .login-form {
+    width: 90%;
+    max-width: none;
+  }
+
+  .login-form input,
+  .login-form button {
+    font-size: 16px;
+  }
+
+  .username i,
+  .password i {
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  p {
+    text-align: left;margin-bottom: 15px;
   }
 }
+
 
 
