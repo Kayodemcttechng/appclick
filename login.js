@@ -9,7 +9,7 @@ const database_password = "1234AppClick";
 btn.addEventListener("click", function() {
 const emailValue = emailInput.value.trim().toLowerCase();
 const passwordValue = passwordInput.value;
-if (emailValue === database_email && passwordValue === database_password) {alert("You are Logged In");
+if (emailValue === database_email && passwordValue === database_password) {alert("You are Logged In as " + emailValue);
 }
     else {
 alert("Wrong Credentials");}
